@@ -1,0 +1,121 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+header{
+    /* background-color: rgba(119, 119, 119, 0); */
+    width: 100%;
+    background-color: rgba(17, 17, 17, 1);
+ margin-top: 0px;
+}
+
+.header-section{
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* background-color: rgba(119, 119, 119, 0); */
+    margin-top: 57px;
+    background-color: rgba(17, 17, 17, 1);
+    align-items: center;
+
+
+ #nav-title{
+    color: rgba(230, 83, 60, 1);
+    font-size: 2.25rem;
+    font-family:"Inter";
+    font-style: italic;
+    font-weight: 800;
+    line-height: 43.2px;
+    margin: 0;
+    align-items: center;
+    
+}
+.nav-links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-decoration: none;
+    width: 465px;
+    height: 46px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    border-radius: 39px;
+    align-items: center;
+    
+}
+    
+
+#home{
+    text-decoration: none;
+    margin: auto;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-family:"Inter";
+    font-size: 1.125rem;
+    margin-right: 47px;
+    width: 92px;
+    height: 38px;
+    font-family: Inter;
+   background-color:  rgba(230, 83, 60, 1);
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+#service{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    margin: auto;
+    font-family:"Inter";
+    font-weight: 400;
+    font-size: 1.125rem;
+    margin-right: 47px;
+    width: 52px;
+    height: 22px;
+
+}
+#about{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    margin: auto;
+    font-weight: 400;
+    font-family:"Inter";
+    font-size: 1.125rem;
+    margin-right: 47px;
+    width: 52px;
+    height: 22px;
+}
+#contact{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    margin: auto;
+    font-weight: 400;
+    font-family:"Inter";
+    font-size: 1.125rem;
+    margin-right: 47px;
+    width: 52px;
+    height: 22px;
+}
