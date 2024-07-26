@@ -19,28 +19,26 @@
 
 
 
-
-
-
-
-header{
-    /* background-color: rgba(119, 119, 119, 0); */
+.section-1{
+    height: 715px;
     width: 100%;
     background-color: rgba(17, 17, 17, 1);
- margin-top: 0px;
+
 }
 
-.header-section{
-    width: 1060px;
+
+
+
+
+.section-1-content-1{
+    max-width: 1060px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    /* background-color: rgba(119, 119, 119, 0); */
-    margin-top: 57px;
-    background-color: rgba(17, 17, 17, 1);
     align-items: center;
+    margin-bottom: 0px;
 
-
+}
  #nav-title{
     color: rgba(230, 83, 60, 1);
     font-size: 2.25rem;
@@ -48,7 +46,7 @@ header{
     font-style: italic;
     font-weight: 800;
     line-height: 43.2px;
-    margin: 0;
+    margin: 57px auto;
     align-items: center;
     
 }
@@ -62,13 +60,14 @@ header{
     padding: 4px;
     border-radius: 39px;
     align-items: center;
+   margin-bottom: 0px;
     
 }
     
 
 #home{
     text-decoration: none;
-    margin: auto;
+    
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
     font-family:"Inter";
@@ -76,7 +75,6 @@ header{
     margin-right: 47px;
     width: 92px;
     height: 38px;
-    font-family: Inter;
    background-color:  rgba(230, 83, 60, 1);
     border-radius: 46px;
     padding: 8px 20px 8px 20px;
@@ -88,7 +86,7 @@ header{
 #service{
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    margin: auto;
+   
     font-family:"Inter";
     font-weight: 400;
     font-size: 1.125rem;
@@ -100,7 +98,7 @@ header{
 #about{
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    margin: auto;
+    
     font-weight: 400;
     font-family:"Inter";
     font-size: 1.125rem;
@@ -111,11 +109,170 @@ header{
 #contact{
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    margin: auto;
+    
     font-weight: 400;
     font-family:"Inter";
     font-size: 1.125rem;
     margin-right: 47px;
     width: 52px;
     height: 22px;
+}
+
+.section-1-content-2{
+    display: flex;
+    max-width: 1060px;
+    margin: 0px auto;
+    margin-top: 0px;
+    flex-direction: row;
+}
+
+
+
+.text{
+    height: 440px;
+    width: 520px;
+    margin: 0px;
+}
+.text-title{
+    font-size: 4.88rem;
+    font-family: "Inter";
+    font-weight: 900;
+    line-height: 93px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px;
+}
+#shape{
+
+}
+.text-description{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter";
+    line-height: 24px;
+}
+#btn-join{
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    gap: 10px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: "Inter";
+    line-height: 22px;
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+#btn-download{
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    gap: 10px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: "Inter";
+    line-height: 22px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(17, 17, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    ;
+}
+.image{
+    height:580px;
+    width: 349px;
+    margin-top: -32px;
+    margin-left: 167px;
+  
+}
+#red-color{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+    margin: 28px 22px;
+    margin-right: 12px;
+    
+}
+#three-fifty{
+    height: 96px;
+    width: 206px;
+    background-color:rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -159px;
+    margin-left: -133px;
+}
+
+#five-fifty{
+    height: 98px;
+    width: 193px;
+    background-color:rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -455px;
+    margin-right: -74px;
+}
+#three-five{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.three-fifty-content{
+    /* height: 56px;
+    width: 108px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#three-fifty-title{
+    font-size: 1.5rem;
+    font-family: "Inter";
+    font-weight: 900;
+    line-height: 12px;
+    color: rgba(250, 250, 249, 1);
+    margin-bottom: 8px;
+    margin-top: 20px;
+
+}
+    #three-fifty-text{
+        height: 24px;
+        width: 108px;
+        font-size: 1rem;
+        font-family: "Inter";
+        font-weight: 400;
+        line-height: 24px;
+        color: rgba(239, 237, 232, 0.65);
+        margin-top: 15px;
+        margin-right: 23px;
+    }
+#five-fifty-title{
+    height: 40px;
+    width: 116px;
+    font-size:2.5rem ;
+    font-family: "Inter";
+    font-weight:900 ;
+    line-height:40px ;
+    color:rgba(255, 255, 255, 1);
+    margin-top:17px ;
+    margin-bottom: 5px;
+    margin-left: 24px;
+}
+#five-fifty-text{
+    height: 20px;
+    width: 146px;
+    font-size: 0.82rem;
+    font-family: "Inter";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    margin-left: 24px;
+    margin-bottom: 16px;
+    margin-top: 5px;
 }
