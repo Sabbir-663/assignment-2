@@ -14,15 +14,24 @@
 }
 
 
+    @import url('https://fonts.cdnfonts.com/css/miama');
+
+   
+                                                
 
 
 
-
+#baground{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 1);
+}
 
 .section-1{
     height: 715px;
     width: 100%;
     background-color: rgba(17, 17, 17, 1);
+    margin: 0 auto;
 
 }
 
@@ -296,6 +305,100 @@
     margin-bottom: 16px;
     margin-top: 5px;
 }
+
+/* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 */
+
+
+.habits-section{
+    height: 452px;
+    width: 1044px;
+    margin: 100px auto;
+   
+}
+.habits-text{
+    height: 120px;
+    width: 671px;
+    margin: 0 auto;
+}
+.habits-title{
+height: 58px;
+width: 476px;
+color: rgba(255, 255, 255, 1);
+font-size:3rem;
+font-weight: 900;
+font-family: "Inter";
+line-height: 57.6px;
+align-items: center;
+margin:0 97.5px;
+}
+.habits-description{
+    height: 48px;
+    width: 671px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.88rem;
+    font-weight: 400;
+    font-family: "Inter";
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    margin-top: 14px;
+    
+}
+.habits-card{
+    display: flex;
+    flex-direction: row;
+   width: 231px;
+   height: 274px;
+  justify-items: center;
+  gap: 30px;
+  align-items: center;
+   
+}
+
+.card-content{
+height: 274px;
+width: 1044px;
+
+
+}
+.card-content img{
+height: 180px;
+width: 180px;
+border-radius: 100px;
+color: rgba(255, 255, 255, 1);
+border: 4px solid rgba(255, 255, 255, 0.1);
+margin-left: 25.5px;
+margin-right: 25.5px;
+
+}
+.card-title{
+height: 22px;
+/* width: 72px; */
+font-size:1.125rem ;
+font-weight:600 ;
+font-family:"Inter";
+line-height: 21.6px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+margin-top: 30px;
+margin-bottom: 6px;
+}
+.card-description{
+height: 36px;
+width: 231px;
+font-size:0.875rem ;
+font-weight:400 ;
+font-family:"Inter";
+line-height: 18px;
+color: rgba(255, 255, 255, 0.5);
+align-items: center;
+text-align: center;
+
+}
+
+
+
+
 /* Media Queary *//* Media Queary *//* Media Queary *//* Media Queary *//* Media Queary */
 
 @media screen and (max-width:576px) {
