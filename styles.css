@@ -46,6 +46,7 @@
     margin: 0 auto;
     align-items: center;
     margin-bottom: 0px;
+    margin-top: 52px;
 
 }
  #nav-title{
@@ -319,6 +320,7 @@
     height: 120px;
     width: 671px;
     margin: 0 auto;
+    margin-bottom: 58px;
 }
 .habits-title{
 height: 58px;
@@ -380,12 +382,12 @@ font-family:"Inter";
 line-height: 21.6px;
 color: rgba(255, 255, 255, 1);
 text-align: center;
-margin-top: 30px;
-margin-bottom: 6px;
+margin-top: 15px;
+margin-bottom: 3px;
 }
 .card-description{
 height: 36px;
-width: 231px;
+/* width: 231px; */
 font-size:0.875rem ;
 font-weight:400 ;
 font-family:"Inter";
@@ -393,6 +395,7 @@ line-height: 18px;
 color: rgba(255, 255, 255, 0.5);
 align-items: center;
 text-align: center;
+margin-top: 6px;
 
 }
 
@@ -504,8 +507,7 @@ text-align: center;
         margin-left: -18px;
      
     }
-
-    
+  
     .three-fifty-content{
         width: 82px; 
     margin-top: 15.12px;
@@ -531,9 +533,7 @@ text-align: center;
         margin-top: 5.19px;
         margin-right: 23px;
     }
-
-    
-    
+   
 #five-fifty-title{
     height: 31px;
     width: 88px;
@@ -572,4 +572,70 @@ text-align: center;
     display:none;
   
 }
+
+/* Habbit Section-2 *//* Habbit Section-2 *//* Habbit Section-2 *//* Habbit Section-2 *//* Habbit Section-2 */
+
+.habits-section{
+    height: 1398px;
+    width: 338px;
+    margin: 0px auto;
+   
+}
+
+.habits-text{
+    height: 124px;
+    width: 318px;
+    margin: 0 auto;
+    margin-bottom: 58px;
+}
+.habits-title{
+height: 38px;
+width: 318px;
+color: rgba(255, 255, 255, 1);
+font-size:2rem;
+font-weight: 900;
+font-family: "Inter";
+line-height: 38.4px;
+align-items: center;
+margin:0 10px;
+}
+.habits-description{
+    height: 72px;
+    width: 316px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.875rem;
+    font-weight: 400;
+    font-family: "Inter";
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    margin-top: 14px;
+    
+}
+
+.habits-card{
+    display: flex;
+    flex-direction:column;
+   width: 231px;
+   height: 274px;
+  justify-items: center;
+  gap: 60px;
+  align-items: center;
+  margin: 0 auto;
+   
+}
+.card-content{
+    height: 274px;
+    width: 331px;
+    
+    
+    
+    }
+
+    .card-content img{
+       
+        margin-left: 68.5px;
+        margin-right: 53.5px;
+    }
+
 }
