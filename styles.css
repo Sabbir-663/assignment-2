@@ -29,6 +29,7 @@ body{
     background-color: rgba(0, 0, 0, 1);
     margin: 0px;
     padding: 0px;
+    border: 2px solid red;
 }
 .section-1{
     height: 715px;
@@ -513,7 +514,7 @@ color:rgba(255, 255, 255, 0.5);
     height: 487px;
     width: 100%;
     background-color: rgba(34, 34, 34, 1);
-    margin-bottom: 100px;
+    margin-bottom: 88px;
 }
 .Bmi-calculator-content{
     width: 1060px;
@@ -944,28 +945,26 @@ margin:0 10px;
     }
     
     .running-text{
-    height: 290px;
-    width: 443px;
-    margin-top: 31px;
-    margin-left: 33px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+        height: 290px;
+        width: 443px;
+        margin-top: 31px;
+        margin-left: 33px;
+        margin-bottom: 0px;
+        margin-right: 0px;
     
     
     }
     .running-title{
-    height: 76px;
-    width: 287px;
-    font-family: "Inter";
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 38.4px;
-    color: rgba(255, 255, 255, 1);
-    margin-top: 0px;
-    margin-bottom: 14px;
-
-    
-    }
+        height: 76px;
+        width: 287px;
+        font-family: "Inter";
+        font-weight: 900;
+        font-size: 2rem;
+        line-height: 38.4px;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 0px;
+        margin-bottom: 14px;
+  }
     .running-description{
         height: 96px;
         width: 287px;
@@ -1037,6 +1036,164 @@ line-height: 24px;
 color:rgba(255, 255, 255, 0.5);
 }
 
+
+/* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 */
+
+.Bmi-calculator{
+    height: 772px;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1);
+    margin-bottom: 66px;
+}
+.Bmi-calculator-content{
+    width: 353px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.Bmi-chart-title{
+    height: 19px;
+    width: 167px;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 19.2px;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+    margin-top: 34px;
+}
+.table-box{
+    height: 43.2px;
+    width: 155px;
+    border:1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 10px;
+    align-content: center;
+  
+ 
+}
+.Bmi-chart-table{
+    height: 216px;
+    width: 310px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 23px;
+   
+
+    
+}
+.table-heading{
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 19.2px;
+    
+}
+.table-data{
+    font-size: 0.875rem;
+    font-family: "Inter";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 16.8px;
+}
+
+.Bmi-info{
+    height: 396px;
+    width: 354px;
+   
+}
+
+.Bmi-info-title{
+    height: 19px;
+    width: 151px;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 19.2px;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 14px;
+    margin-top: 42px;
+  
+}
+.Bmi-info-description{
+    height: 72px;
+    width: 346px;
+    font-family: "Inter";
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+}
+
+.Bmi-info-inputs{
+    height: 168px;
+    width: 358px;
+}
+.Bmi-info-input-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+
+}
+
+
+.input-1{
+    height: 32px;
+    width: 113px;
+    color:rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter";
+    padding: 12px 40px 12px 20px;
+    align-content: center;
+}
+
+.input-11{
+    height: 32px;
+    width: 113px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Bmi-info-input-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    width: 300px;
+    color:rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter";
+    padding: 12px 40px 12px 20px;
+    align-content: center;
+    margin-top: 8px;
+}
+.info-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    height: 54px;
+    width: 224px;
+    border-radius: 274px;
+    font-size: 1.125rem;
+    font-family: "Inter";
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 34px;
+    text-align: center;
+   align-content: center;
+}
 
 
 
