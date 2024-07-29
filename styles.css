@@ -25,13 +25,15 @@
 body{
     height: 100%;
     width: 100%;
-    /* background-color: rgba(17, 17, 17, 1); */
+ 
     background-color: rgba(0, 0, 0, 1);
     margin: 0px;
+    padding: 0px;
 }
 .section-1{
     height: 715px;
     width: 100%;
+    background-image: linear-gradient(180deg, #ded1d124 0%, rgba(119, 119, 119, 0) 100%);
 
 
     margin: 0 auto;
@@ -457,19 +459,235 @@ background-color: rgba(230, 83, 60, 1);
 
 
 }
-.running-image img{
+
+.running-image-1 img {
     height: 312px;
     width: 336px;
     border-radius: 18px;
     margin-top: 30px;
-    margin-bottom: 29px;
-    margin-right: 34px;
+    /* margin-bottom: 29px; */
+    margin-right: 34px; 
+   
+   
 }
+.running-image-2{
+    height: 170px;
+    width: 287px;
+    margin-top: 31px;
+    margin-bottom: 35px;
+    margin-left: 33px;
+    border-radius: 18px;
+    display: none;
+}
+/* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 */
+
+.bmi-cal{
+    height: 120px;
+    width: 671px;
+    margin: 88px auto;
+}
+
+.bmi-cal-title{
+height: 58px;
+width: 353px;
+font-family: "Inter";
+font-size: 3rem;
+font-weight: 900;
+line-height: 57.6px;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 14px;
+}
+.bmi-cal-description{
+    height: 48px;
+width: 671px;
+font-family: "Inter";
+font-size: 0.875rem;
+font-weight: 400;
+line-height: 24px;
+color:rgba(255, 255, 255, 0.5);
+}
+
+/* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 *//* Section-4 p2 */
+
+.Bmi-calculator{
+    height: 487px;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1);
+    margin-bottom: 100px;
+}
+.Bmi-calculator-content{
+    width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Bmi-chart-title{
+    height: 34px;
+    width: 443px;
+    font-family: "Inter";
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 33.6px;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 52px;
+    margin-top: 52px;
+}
+.table-box{
+    height: 43.2px;
+    width: 155px;
+    border:1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 10px;
+    align-content: center;
+  
+ 
+}
+.Bmi-chart-table{
+    height: 216px;
+    width: 310px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 52px;
+   
+
+    
+}
+.table-heading{
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 19.2px;
+    
+}
+.table-data{
+    font-size: 0.875rem;
+    font-family: "Inter";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 16.8px;
+}
+
+.Bmi-info{
+    height: 386px;
+    width: 557px;
+   
+}
+
+.Bmi-info-title{
+    height: 34px;
+    width: 443px;
+    font-family: "Inter";
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 33.6px;
+    color:rgba(255, 255, 255, 1);
+    margin-bottom: 14px;
+    margin-top: 52px;
+  
+}
+.Bmi-info-description{
+    height: 48px;
+    width: 567px;
+    font-family: "Inter";
+    font-size: 0.875rem;
+    font-weight: 00;
+    line-height: 24px;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px;
+}
+
+.Bmi-info-inputs{
+    height: 168px;
+    width: 177px;
+}
+.Bmi-info-input-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+
+}
+
+
+.input-1{
+    height: 26px;
+    width: 210.5px;
+    color:rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter";
+    padding: 12px 40px 12px 20px;
+    align-content: center;
+}
+
+.input-11{
+    height: 26px;
+    width: 210.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Bmi-info-input-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 492px;
+    color:rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Inter";
+    padding: 12px 40px 12px 20px;
+    align-content: center;
+    margin-top: 12px;
+}
+.info-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
+    height: 54px;
+    width: 224px;
+    border-radius: 274px;
+    font-size: 1.125rem;
+    font-family: "Inter";
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 34px;
+    text-align: center;
+   align-content: center;
+}
+
+
+
+
+/* .practice{
+
+    background-color:  rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+    font-size: 5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} */
+
 
 
 /* Media Query *//* Media Query *//* Media Query *//* Media Query *//* Media Query *//* Media Query *//* Media Query */
 
 @media screen and (max-width:576px) {
+
+
+
+    
     .nav-links{
         display:none;
     }
@@ -479,11 +697,13 @@ background-color: rgba(230, 83, 60, 1);
         display:flex;
         flex-direction: column;
     }
+   
 
     .section-1-content-1{
         height: 43px;
         width: 353px;
-        margin-top: 0px;
+        /* margin-top: 52px; */
+        padding-top: 52px;
     }
     .section-1-content-2{
         display: flex;
@@ -496,7 +716,7 @@ background-color: rgba(230, 83, 60, 1);
     .section-1{
         height: 1033px;
         width: 100%;
-        background-color: rgba(17, 17, 17, 1);
+        /* background-color: rgba(17, 17, 17, 1); */
     
     }
     .text-title{
@@ -645,6 +865,8 @@ background-color: rgba(230, 83, 60, 1);
     height: 1398px;
     width: 338px;
     margin: 0px auto;
+    margin-top: 50px;
+    
    
 }
 
@@ -706,15 +928,122 @@ margin:0 10px;
 
     /* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 *//* Section-3 */
 
+    
+
     .running-section{
+        height:531px ;
+        width: 353px;
+        background-color: rgba(34, 34, 34, 1);
+        border-radius: 18px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 86px;
+        
+    }
+    
+    .running-text{
+    height: 290px;
+    width: 443px;
+    margin-top: 31px;
+    margin-left: 33px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    
+    
+    }
+    .running-title{
+    height: 76px;
+    width: 287px;
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 38.4px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0px;
+    margin-bottom: 14px;
+
+    
+    }
+    .running-description{
+        height: 96px;
+        width: 287px;
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 24px;
 
     }
+    #running-join-btn{
+    height: 54px;
+    width: 287px;
+    border-radius: 42px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.125rem;
+    font-family: "Inter";
+    font-weight: 600;
+    line-height: 22px;
+    background-color: rgba(230, 83, 60, 1);
+    
+    
+    
+    }
+    .running-image-1{
+        display: none;
+    }
+    .running-image-2{
+        display: flex;
+        
+    }
+    .running-image-2 img{
+        
+        height: 170px;
+        width: 287px;
+        margin-top: 3px;
+        margin-bottom: 35px;
+        margin-left: 1px;
+        border-radius: 18px;
+      
+    }
+ 
+/* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 *//* Section-4 p1 */
 
+.bmi-cal{
+    height: 124px;
+    width: 353px;
+    margin: 31px auto;
+}
 
-
+.bmi-cal-title{
+height: 38px;
+width: 336px;
+font-family: "Inter";
+font-size: 2rem;
+font-weight: 900;
+line-height: 38.4px;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 14px;
+}
+.bmi-cal-description{
+    height: 72px;
+width: 330px;
+font-family: "Inter";
+font-size: 0.875rem;
+font-weight: 400;
+line-height: 24px;
+color:rgba(255, 255, 255, 0.5);
 }
 
 
 
+
+
+
+
+   
+}
 
 
