@@ -27,14 +27,13 @@ body{
 
 
 body{
-    height: 100%;
-    width: 100%;
- 
-    background-color: rgba(0, 0, 0, 1);
-    margin: 0px;
-    padding: 0px;
-   
-}
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        margin: 0px;
+        padding: 0px;
+        
+    }
 .section-1{
     height: 715px;
     width: 100%;
@@ -690,7 +689,13 @@ color:rgba(255, 255, 255, 0.5);
 
 @media screen and (max-width:576px) {
 
+   /* *{
+    border: 1px solid red;
+   }                                             
 
+body{
+    border: 2px dashed green;
+} */
 
     
     .nav-links{
@@ -706,17 +711,23 @@ color:rgba(255, 255, 255, 0.5);
 
     .section-1-content-1{
         height: 43px;
-        width: 353px;
+        max-width: 353px;
         /* margin-top: 52px; */
         padding-top: 52px;
+      
+        padding-left: 15px;
+        padding-right: 10px;
     }
     .section-1-content-2{
         display: flex;
         flex-direction: column;
+      
     }
     .text{
         height: 353px;
-        width: 353px;
+        max-width: 317px;
+       
+        
     }
     .section-1{
         height: 1033px;
@@ -732,18 +743,19 @@ color:rgba(255, 255, 255, 0.5);
         line-height: 43.2px;
         color: rgba(255, 255, 255, 1);
         margin: 0px;
+        padding-left: 10px;
     }
     .text-description{
         font-size: 1rem;
         line-height: 24px;
         height: 96px;
         width: 274px;
+        padding-left: 10px;
 
-    }
+    } 
     #btn-join{
         height: 54px;
-        width: 169px;
-        /* padding: 16px 40px 16px 40px; */
+        max-width: 150px;
         padding: 0;
         border-radius: 42px;
         line-height: 2px;
@@ -752,8 +764,7 @@ color:rgba(255, 255, 255, 0.5);
     }
     #btn-download{
         height: 54px;
-        width: 169px;
-        /* padding: 16px 40px 16px 40px; */
+        max-width: 150px;
         padding: 0;
         border-radius: 42px;
         line-height: 2px;
@@ -762,19 +773,26 @@ color:rgba(255, 255, 255, 0.5);
     }
     .section-1-content-2{
         height:335px ;
-        width:353px ;
+        max-width:320px ;
         margin-top:51px ;
         margin-left: auto;
         margin-right: auto;
+       
+       
     }
     .image{
-        height: 495px;
-        width: 353px;
-        margin-left: 20px;
-        margin-right: 20px;
+        max-height: 495px;
+        max-width: 318px;
+        margin: 0px auto;
         margin-top: 48px;
+        
+       
     }
-    
+    .image img{
+        max-width: 315px;
+        margin: auto;
+       
+    } 
     #red-color{
         height: 30.24px;
         width: 30.24px;
@@ -787,22 +805,23 @@ color:rgba(255, 255, 255, 0.5);
 
     #three-fifty{
         height: 72.58px;
-        width: 155.74px;
+        max-width: 145.74px;
         background-color:rgba(48, 48, 48, 0.54);
         border: 0.76px solid rgba(255, 255, 255, 0.1);
         border-radius: 9.07px;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-top: -320px;
-        margin-left: -18px;
-     
+        margin-top: -300px;
+        margin-left: 15px;
+       
     }
   
     .three-fifty-content{
         width: 82px; 
     margin-top: 15.12px;
     margin-bottom: 14.26px;
+    
     }
     #three-fifty-title{
         font-size: 1.133rem;
@@ -812,6 +831,7 @@ color:rgba(255, 255, 255, 0.5);
     color: rgba(250, 250, 249, 1);
     margin-bottom: 5.19px;
     margin-top: 15.12px;
+   
     }
     #three-fifty-text{
         height: 19px;
@@ -823,6 +843,7 @@ color:rgba(255, 255, 255, 0.5);
         color: rgba(239, 237, 232, 0.65);
         margin-top: 5.19px;
         margin-right: 23px;
+        
     }
    
 #five-fifty-title{
@@ -850,14 +871,14 @@ color:rgba(255, 255, 255, 0.5);
 }
 #five-fifty{
     height: 74.09px;
-    width: 145.91px;
+    max-width: 135.91px;
     background-color:rgba(255, 255, 255, 0.1);
     border: 0.76px solid rgba(255, 255, 255, 0.1);
     border-radius: 9.07px;
     align-items: center;
     justify-content: center;
-    margin-top: -545px;
-    margin-right: 19.89px;
+    margin-top: -495px;
+    margin-right: 16px;
 }
 #club{
     display:none;
@@ -868,16 +889,17 @@ color:rgba(255, 255, 255, 0.5);
 
 .habits-section{
     height: 1398px;
-    width: 338px;
+    max-width: 319px;
     margin: 0px auto;
     margin-top: 50px;
+    margin-bottom: 100px;
     
    
 }
 
 .habits-text{
     height: 124px;
-    width: 318px;
+    max-width: 318px;
     margin: 0 auto;
     margin-bottom: 58px;
 }
@@ -890,7 +912,7 @@ font-weight: 900;
 font-family: "Inter";
 line-height: 38.4px;
 align-items: center;
-margin:0 10px;
+margin:0px;
 }
 .habits-description{
     height: 72px;
@@ -919,7 +941,7 @@ margin:0 10px;
 }
 .card-content{
     height: 274px;
-    width: 331px;
+    max-width: 319px;
     
     
     
@@ -937,7 +959,7 @@ margin:0 10px;
 
     .running-section{
         height:531px ;
-        width: 353px;
+        width: 315px;
         background-color: rgba(34, 34, 34, 1);
         border-radius: 18px;
         margin: 0 auto;
@@ -945,16 +967,16 @@ margin:0 10px;
         flex-direction: column;
         gap: 0px;
         margin-top: 86px;
+    
         
     }
     
     .running-text{
         height: 264px;
         width: 287px;
+        margin: 0px auto;
         margin-top: 31px;
-        margin-left: 33px;
-        margin-bottom: 0px;
-        margin-right: 0px;
+       
     
     
     }
@@ -1001,13 +1023,19 @@ margin:0 10px;
         display: flex;
         
     }
+    .running-image-2{
+        margin: 0px auto;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
     .running-image-2 img{
         
         height: 170px;
         width: 287px;
-        margin-top: 3px;
+        margin: 0px auto;
+        margin-top: 0px;
         margin-bottom: 35px;
-        margin-left: 1px;
+       
         border-radius: 18px;
       
     }
@@ -1016,13 +1044,13 @@ margin:0 10px;
 
 .bmi-cal{
     height: 124px;
-    width: 353px;
+    max-width: 310px;
     margin: 31px auto;
 }
 
 .bmi-cal-title{
 height: 38px;
-width: 336px;
+max-width: 310px;
 font-family: "Inter";
 font-size: 2rem;
 font-weight: 900;
@@ -1032,7 +1060,7 @@ margin-bottom: 14px;
 }
 .bmi-cal-description{
     height: 72px;
-width: 330px;
+max-width: 310px;
 font-family: "Inter";
 font-size: 0.875rem;
 font-weight: 400;
@@ -1045,12 +1073,12 @@ color:rgba(255, 255, 255, 0.5);
 
 .Bmi-calculator{
     height: 772px;
-    width: 100%;
-    background-color: rgba(34, 34, 34, 1);
+    width: 99%;
+    background-color: none;
     margin-bottom: 66px;
 }
 .Bmi-calculator-content{
-    width: 353px;
+    max-width: 316px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -1070,7 +1098,7 @@ color:rgba(255, 255, 255, 0.5);
 }
 .table-box{
     height: 43.2px;
-    width: 155px;
+    width: 145px;
     border:1px solid rgba(255, 255, 255, 0.1);
     padding-left: 10px;
     align-content: center;
@@ -1105,7 +1133,7 @@ color:rgba(255, 255, 255, 0.5);
 
 .Bmi-info{
     height: 396px;
-    width: 354px;
+    width: 314px;
    
 }
 
@@ -1123,7 +1151,7 @@ color:rgba(255, 255, 255, 0.5);
 }
 .Bmi-info-description{
     height: 72px;
-    width: 346px;
+    width: 312px;
     font-family: "Inter";
     font-size: 0.875rem;
     font-weight: 400;
@@ -1134,19 +1162,19 @@ color:rgba(255, 255, 255, 0.5);
 
 .Bmi-info-inputs{
     height: 168px;
-    width: 358px;
+    width: 312px;
 }
 .Bmi-info-input-1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 8px;
+    gap: 4px;
 
 }
 
 
 .input-1{
-    height: 32px;
-    width: 113px;
+    height: 28px;
+    width: 90px;
     color:rgba(255, 255, 255, 0.6);
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -1158,8 +1186,8 @@ color:rgba(255, 255, 255, 0.5);
 }
 
 .input-11{
-    height: 32px;
-    width: 113px;
+    height: 28px;
+    width: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1172,15 +1200,15 @@ color:rgba(255, 255, 255, 0.5);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 32px;
-    width: 300px;
+    height: 28px;
+    width: 250px;
     color:rgba(255, 255, 255, 0.6);
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 1rem;
     font-weight: 400;
     font-family: "Inter";
-    padding: 12px 40px 12px 20px;
+    /* padding: 12px 40px 12px 20px; */
     align-content: center;
     margin-top: 8px;
 }
@@ -1189,7 +1217,7 @@ color:rgba(255, 255, 255, 0.5);
     background-color: rgba(230, 83, 60, 1);
     height: 54px;
     width: 224px;
-    border-radius: 274px;
+    border-radius: 42px;
     font-size: 1.125rem;
     font-family: "Inter";
     font-weight: 600;
@@ -1198,7 +1226,6 @@ color:rgba(255, 255, 255, 0.5);
     text-align: center;
    align-content: center;
 }
-
 
 
 
