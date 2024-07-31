@@ -16,8 +16,8 @@
 
     @import url('https://fonts.cdnfonts.com/css/miama');
 
-   
-   /* *{
+/*    
+   *{
     border: 1px solid red;
    }                                             
 
@@ -761,10 +761,90 @@ margin: 88px auto;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+/* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 */
 
+.fitness-section{
+    height: 490px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: azure; */
+    
+  
+}
+.fitness-content{
+    height: 249px;
+    width: 1060px;
+    margin: auto;
+    margin-top:66px;
+    padding-top: 66px;
+    display: flex;
+    gap: 102px;
+    border-bottom:3px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 79px;
 
+}
+.fitness-text{
+    height: 176px;
+    width: 443px;
+ 
 
+}
+.fitness-started{
+    height: 249px;
+    width: 514px;
+    display: flex;
+    gap: 100px;
+}
+.fitness-title{
+    font-size: 4.375rem;
+    color: rgba(230, 83, 60, 1);
+    font-weight: 800;
+    font-family: "Inter";
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.fitness-description{
+    width: 420px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-family: "Inter";
+    margin-top: 20px;
+    opacity: 0.8;
+   
+}
+.fitness-started-title{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-family: "Inter";
+    margin-top: 0px;
+    
+  
+}
+.fitness-started-des{
+    font-size: 1.4rem;
+    color:rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-family: "Inter";
+    line-height: 27.6px;
+    opacity: 0.8;
+    margin-top: px;
+}
 
+.ending{
+    color:rgba(255, 255, 255, 0.5);
+ 
+    margin-top: 36px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Inter";
+    font-weight: 400;
+    opacity: 0.8;
+
+}
 
 
 
@@ -1316,6 +1396,7 @@ color:rgba(255, 255, 255, 0.5);
     /* height: 782px; */
         width: 319px;
     margin: 88px auto;
+    margin-bottom: 50px;
     }
     .team-text{
     
@@ -1390,8 +1471,108 @@ color:rgba(255, 255, 255, 0.5);
         background-color: rgba(0, 0, 0, 0.2);
     }
 
+    
+/* fitness-section *//* fitness-section *//* fitness-section *//* fitness-section *//* fitness-section *//* fitness-section */
 
+
+/* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 *//* Section-6 */
+
+.fitness-section{
+    height: 966px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: azure; */
+    
+  
+}
+.fitness-content{
+    height: 728px;
+    width: 314px;
+    /* margin: auto; */
+    margin-top:0px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    border-bottom:3px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 99px;
    
 }
+.fitness-text{
+    height: 176px;
+    max-width: 280px;
+    margin-top: 0px;
+    padding: 10px;
+ 
 
+}
+.fitness-started{
+    height: 249px;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+}
+.fitness-title{
+    max-width: 300px;
+    font-size: 4.2rem;
+    color: rgba(230, 83, 60, 1);
+    font-weight: 800;
+    font-family: "Inter";
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.fitness-description{
+    width: 290px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-family: "Inter";
+    margin-top: 10px;
+    opacity: 0.8;
+   
+}
+.fitness-started-title{
+    max-width: 280px;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-family: "Inter";
+    margin-top: 0px;
+    
+  
+}
+.fitness-started-des{
+    max-width: 280px;
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-family: "Inter";
+    line-height: 27.6px;
+    opacity: 0.7;
+    
+}
+
+.ending{
+    
+    color:rgba(255, 255, 255, 0.5);
+    max-width: 315px;
+    margin: auto;
+    margin-top: 36px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 400;
+    opacity: 0.7;
+   
+
+}
+
+
+
+
+}
 
