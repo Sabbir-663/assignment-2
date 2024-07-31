@@ -669,19 +669,102 @@ color:rgba(255, 255, 255, 0.5);
 }
 
 
+/* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 */
+.meet-team-section{
+/* height: 782px; */
+    width: 1060px;
+
+margin: 88px auto;
+}
+.team-text{
+
+}
+.team-title{
+    font-size: 3rem;
+    font-family: "Inter";
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.team-description{
+    font-size: 0.875rem;
+    font-family: "Inter";
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 14px;
+    opacity: 0.8;
+    margin-bottom: 58px;
+}
+    .pictures-2{
+        display: none;
+    }
+
+    .pictures-1{
+        height: 630px;
+        width: 1060px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius:18px ;
+    }
+.pic-title{
+    font-size: 1.25rem;
+    font-weight: 900;
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+   
+}
+.pic-des{
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: "Inter";
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+}
+.pics{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+    align-content: end;
+    margin-top: 20px;
+    margin-left: 15px;
+   
+}
+.pic-1{
+    background-image: url(./images/Dtrainer1.png);
+    background-color: rgba(0, 0, 0, 0.2);
+   
+}
+.pic-2{
+    background-image: url(./images/Dtrainer2.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.pic-3{
+    background-image: url(./images/Dtrainer3.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.pic-4{
+    background-image: url(./images/Dtrainer4.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.pic-5{
+    background-image: url(./images/Dtrainer5.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.pic-6{
+    background-image: url(./images/Dtrainer6.jpg);
+    background-color: rgba(0, 0, 0, 0.2);
+}
 
 
-/* .practice{
 
-    background-color:  rgba(255, 255, 255, 0.1);
-    color: aliceblue;
-    font-size: 5rem;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-} */
+
+
 
 
 
@@ -1073,7 +1156,7 @@ color:rgba(255, 255, 255, 0.5);
 
 .Bmi-calculator{
     height: 772px;
-    width: 99%;
+    width: 100%;
     background-color: none;
     margin-bottom: 66px;
 }
@@ -1228,7 +1311,84 @@ color:rgba(255, 255, 255, 0.5);
 }
 
 
-
+/* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 *//* Section-5 */
+.meet-team-section{
+    /* height: 782px; */
+        width: 319px;
+    margin: 88px auto;
+    }
+    .team-text{
+    
+    }
+    .team-title{
+        font-size: 2rem;
+        font-family: "Inter";
+        font-weight: 900;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .team-description{
+        font-size: 0.875rem;
+        font-family: "Inter";
+        font-weight: 400;
+        color:rgba(255, 255, 255, 0.5);
+        text-align: center;
+        margin-top: 14px;
+        opacity: 0.8;
+        margin-bottom: 58px;
+    }
+    .pictures-1{
+        display: none;
+    }
+        .pictures-2{
+            height: 1190px;
+            width: 319px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 0px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius:18px ;
+        }
+    .pic-title{
+        font-size: 1.25rem;
+        font-weight: 900;
+        font-family: "Inter";
+        color: rgba(255, 255, 255, 1);
+        margin-left: 10px;
+       
+    }
+    .pic-des{
+        font-size: 0.875rem;
+        font-weight: 400;
+        font-family: "Inter";
+        color: rgba(255, 255, 255, 1);
+        margin-left: 10px;
+    }
+    .pics{
+        width: 290px;
+        height: 257px;
+        border-radius: 18px;
+        align-content: end;
+        margin-top: 20px;
+        margin-left: 14px;
+       
+    }
+  
+    .pic-2{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .pic-3{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+   
+    .pic-5{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .pic-6{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
 
 
    
