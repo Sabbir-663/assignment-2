@@ -35,18 +35,11 @@ body{
         
     }
 .section-1{
-    height: 715px;
-    width: 100%;
-    background-image: linear-gradient(180deg, #ded1d124 0%, rgba(119, 119, 119, 0) 100%);
-
-
-    margin: 0 auto;
-
-}
-
-
-
-
+        height: 715px;
+        width: 100%;
+        background-image: linear-gradient(180deg, #ded1d124 0%, rgba(119, 119, 119, 0) 100%);
+        margin: 0 auto;
+    }
 
 .section-1-content-1{
     max-width: 1060px;
@@ -67,6 +60,7 @@ body{
     line-height: 43.2px;
     margin: 57px auto;
     align-items: center;
+    
     
 }
 
@@ -314,6 +308,81 @@ body{
     margin-top: 5px;
 }
 
+/* Special Section *//* Special Section *//* Special Section *//* Special Section *//* Special Section *//* Special Section */
+
+.special-section{
+    height: 640px;
+    width: 1060px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 15px;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.special-title{
+    color: rgba(255, 255, 255, 1);
+    font-size:3rem;
+    font-weight: 900;
+    font-family: "Inter";
+    text-align: center;
+    margin: 0px;
+
+}
+.special-description{
+    width: 671px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size:1rem;
+    font-weight: 400;
+    font-family: "Inter";
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.special-points-part{
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-points img{
+    height: 265px;
+    width: 295px;
+    margin-left: 15px;
+    border: 10px solid rgba(255, 255, 255, 0.1) ;
+    border-radius: 20%;
+}
+.special-point-title{
+    height: 22px;
+    font-size:1.125rem ;
+    font-weight:600 ;
+    font-family:"Inter";
+    line-height: 21.6px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+
+.special-point-description{
+    height: 36px;
+    font-size:0.875rem ;
+    font-weight:400 ;
+    font-family:"Inter";
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    text-align: center;
+    margin-top: 6px;
+    opacity: 0.7;
+}
+
+
 /* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 *//* Section-2 */
 
 
@@ -351,6 +420,7 @@ margin:0 97.5px;
     align-items: center;
     text-align: center;
     margin-top: 14px;
+    opacity: 0.8;
     
 }
 .habits-card{
@@ -1048,7 +1118,83 @@ body{
   
 }
 
-/* Habbit Section-2 *//* Habbit Section-2 *//* Habbit Section-2 *//* Habbit Section-2 *//* Habbit Section-2 */
+/* Special Section *//* Special Section *//* Special Section *//* Special Section *//* Special Section *//* Special Section */
+
+.special-section{
+    height: 1480px;
+    width: 316px;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.special-title{
+    color: rgba(255, 255, 255, 1);
+    font-size:2.5rem;
+    font-weight: 900;
+    font-family: "Inter";
+    text-align: center;
+    margin: 0px;
+
+}
+.special-description{
+    width: 300px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size:.8rem;
+    font-weight: 400;
+    font-family: "Inter";
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.special-points-part{
+    width: 314px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.special-points img{
+    height: 245px;
+    width: 275px;
+    margin-left:10px;   
+    border: 10px solid rgba(255, 255, 255, 0.1) ;
+    border-radius: 20%;
+}
+.special-point-title{
+    height: 22px;
+    font-size:1.125rem ;
+    font-weight:600 ;
+    font-family:"Inter";
+    line-height: 21.6px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    }
+
+
+.special-point-description{
+    height: 36px;
+    font-size:0.7rem ;
+    font-weight:400 ;
+    font-family:"Inter";
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 70px;
+}
+
+
+
+/* Habit Section-2 *//* Habit Section-2 *//* Habit Section-2 *//* Habit Section-2 *//* Habit Section-2 */
 
 .habits-section{
     height: 1398px;
@@ -1056,8 +1202,6 @@ body{
     margin: 0px auto;
     margin-top: 50px;
     margin-bottom: 100px;
-    
-   
 }
 
 .habits-text{
@@ -1131,7 +1275,6 @@ margin:0px;
         gap: 0px;
         margin-top: 86px;
     
-        
     }
     
     .running-text{
